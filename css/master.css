@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes anime1 {
+    0% {
+        border-radius:52% 48% 73% 27% / 38% 69% 31% 62%   ;
+    }
+
+    40% {
+        border-radius: 81% 19% 86% 14% / 17% 80% 20% 83%  ;
+    }
+
+    80% {
+        border-radius: 53% 47% 27% 73% / 63% 34% 66% 37% ;
+    }
+
+    100% {
+        border-radius: 31% 69% 14% 86% / 53% 23% 77% 47% ;
+    }
+}
+
+@keyframes anime2 {
+    0% {
+        border-radius:53% 47% 27% 73% / 63% 34% 66% 37%  ;
+    }
+
+    40% {
+        border-radius:52% 48% 73% 27% / 38% 69% 31% 62%  ;
+    }
+
+    80% {
+        border-radius:31% 69% 14% 86% / 53% 23% 77% 47%  ;
+    }
+
+    100% {
+        border-radius:81% 19% 86% 14% / 17% 80% 20% 83%  ;
+    }
+}
